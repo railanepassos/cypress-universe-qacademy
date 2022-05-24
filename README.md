@@ -1,5 +1,5 @@
 <h1>cypress-universe</h1>
-<p>Desenvolvido durante o curso Universo Cypress promovido pela plataforma https://app.weareqacademy.com sob orientação do Coordenador Papito Fernando.</p>
+<p>Desenvolvido durante o curso Universo Cypress promovido pela plataforma https://app.weareqacademy.com sob orientação do Coordenador Fernando Papito.</p>
 
 <br><h3>Execução de testes criados no projeto</h3>
 🏗️ Em construção
