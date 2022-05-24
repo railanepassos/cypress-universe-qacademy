@@ -8,4 +8,13 @@ it('deve logar com sucesso', () => {
     // Técnicas para buscar e clicar em botões
     cy.get('button[type="submit"]').click();
 
+    // Validando textos
+    cy.get('h3[class^=title]')
+        .should('have.text', 'Olá Papito, bem-vindo ao Orkut');
+
+    const expectedText = 'Em breve você poderá participar de comunidades, adicionar amigos e deixar um Scraps. hahahahah'
+
+    cy.get('p[class="subheader"]')
+        .should('have.text', expectedText);
+
 });
