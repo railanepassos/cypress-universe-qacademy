@@ -1,5 +1,5 @@
 it('deve exibir a home page', () => {
-    cy.visit('https://training-wheels-qaninja.herokuapp.com/');
+    cy.visit('/');
 
     // Validação pelo titulo da pagina (menos recomendado, precisamos mpensar melhor em nossa estratégia de validação)
     cy.title()

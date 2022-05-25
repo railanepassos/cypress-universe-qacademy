@@ -1,5 +1,5 @@
 it('deve marcar os top 5 filmes da marvel', () => {
-    cy.visit('https://training-wheels-qaninja.herokuapp.com/checkboxes');
+    cy.visit('/checkboxes');
 
     const movies = [
         'blackpanther',
@@ -15,5 +15,5 @@ it('deve marcar os top 5 filmes da marvel', () => {
             .should('be.checked');
 
     })
-    
+
 });

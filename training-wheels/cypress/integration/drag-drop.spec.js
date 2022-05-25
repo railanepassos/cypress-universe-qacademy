@@ -1,6 +1,6 @@
 describe('drag and drop with hooks', () => {
     before(() => {
-        cy.visit('https://training-wheels-qaninja.herokuapp.com/drag_and_drop');
+        cy.visit('/drag_and_drop');
 
     });
     it('deve arrastar o cypress para a caixinha do node', () => {
