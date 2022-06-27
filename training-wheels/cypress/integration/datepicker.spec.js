@@ -4,9 +4,10 @@ it('selecionar data de nascimento', () => {
   cy.visit('/datepicker');
 
   const date = {
-    month: 'nov',
-    monthNumber: '11',
-    day: '13',
+    month: 'jan',
+    monthValue: '01',
+    day: '8',
+    dayValue: '08',
     year: '1986'
 
   }
@@ -24,12 +25,12 @@ it('selecionar data de nascimento', () => {
   cy.contains('div.datepicker-year span', date.year)
     .click();
 
-  cy.contains('button.date-item', date.day)
-    .click();
+  cy.contains('button[class=date-item]', new RegExp("^" + date.day + "$", "g"))
+    .click()
 
   //cy.get('input#date')
   cy.get('div.datetimepicker-dummy-wrapper input.is-hidden')
-    .should('have.value', `${date.day}/${date.monthNumber}/${date.year}`);
+    .should('have.value', `${date.dayValue}/${date.monthValue}/${date.year}`);
 
 
 
