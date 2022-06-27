@@ -15,3 +15,23 @@ it('deve selecionar opção Playwright', () => {
     .should('have.text', 'Playwright');
 
 });
+
+it('deve selecionar as opções Cypress, Playright e Robot', () => {
+  cy.visit('/apps/select2/index.html');
+
+  const frameworks = [
+    'Cypress',
+    'Playwright',
+    'Robot Framework'
+
+  ];
+
+  frameworks.forEach(framework => {
+    cy.get('span.select2-selection--multiple')
+      .click();
+    cy.contains('li.select2-results__option', framework)
+      .click();
+
+  });
+
+});
