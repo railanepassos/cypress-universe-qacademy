@@ -15,6 +15,7 @@
   "author": "Railane Passos",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^9.6.0"
+    "cypress": "^9.6.0",
+    "cypress-real-events": "^1.7.1"
   }
 }
