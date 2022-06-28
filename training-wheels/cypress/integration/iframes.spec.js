@@ -27,7 +27,7 @@ const badIFrame = () => {
 
 }
 
-it('deve validar o total de seguidores com iFrame bom', () => {
+it('deve validar o total de seguidores no iFrame bom', () => {
 
   cy.visit('/nice_iframe');
 
@@ -36,11 +36,21 @@ it('deve validar o total de seguidores com iFrame bom', () => {
 
 });
 
-it('deve validar o total de seguidores com iFrame ruim', () => {
+it('deve validar o total de seguidores no iFrame ruim', () => {
 
   cy.visit('/bad_iframe');
 
   badIFrame().contains('span.FollowerCountText', '6,590 followers')
+    .should('be.visible');
+
+});
+
+it('deve validar username no iFrame ruim', () => {
+
+  cy.visit('/bad_iframe');
+
+  badIFrame()
+    .contains('span.UsernameText', 'qacademy_oficial')
     .should('be.visible');
 
 });
