@@ -4,4 +4,9 @@
 # samuraibs project
 /samuraibs/apps/api/node_modules
 /samuraibs/apps/api/.env
+/samuraibs/apps/api/dist
+/samuraibs/apps/api/build
+/samuraibs/apps/api/tmp
 /samuraibs/apps/web/node_modules
+/samuraibs/apps/web/dist
+/samuraibs/apps/web/build
