@@ -1,0 +1,11 @@
+{
+  "name": "samuraibs-tests",
+  "version": "1.0.0",
+  "description": "Projeto de testes de aceitação de Ponta a Ponta em Cypress",
+  "main": "index.js",
+  "author": "Railane Passos",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
