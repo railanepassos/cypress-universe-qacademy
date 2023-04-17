@@ -21,12 +21,13 @@
 3. Run the command
    yarn test
 
-<br><h3>Principais ferramentas e tecnologias ultilizadas</h3></br>
+<br><h3>Principais ferramentas e tecnologias ultilizadas</h3>
 
 <p>▶ Javascript - Linguagem de programação ultilizado no desenvolvimento dos testes.
 <p>▶ Nodejs - Ferramenta para execução de codigos javascript fora do navegador.
 <p>▶ Yarn - Gerenciador de pacotes javascript.
 <p>▶ Cypress - Ferramenta de teste.
+<p>▶ Faker.js - Ferramenta para geração de dados aleatório.
 
 <br><h3>Cenários implementados no projeto</h3>
 🏗️ Em construção
