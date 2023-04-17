@@ -15,7 +15,7 @@ import { faker } from "@faker-js/faker";
       cy.get('.toast')
         .should('be.visible')
         .find('p')
-        .should('have.text', 'Agora você pode fazer seu login no Samurai Barbershop!');
+        .should('have.text', 'Agora você se tornou um(a) Samurai, faça seu login para ver seus agendamentos!');
     
     });
     
@@ -33,7 +33,7 @@ import { faker } from "@faker-js/faker";
       cy.get('.toast')
         .should('be.visible')
         .find('p')
-        .should('have.text', 'Agora você pode fazer seu login no Samurai Barbershop!');
+        .should('have.text', 'Agora você se tornou um(a) Samurai, faça seu login para ver seus agendamentos!');
     
     });
   }) 
@@ -67,7 +67,7 @@ describe('Cenários de cadastro de usuário interceptando chamada', () => {
     cy.get('.toast')
       .should('be.visible')
       .find('p')
-      .should('have.text', 'Agora você pode fazer seu login no Samurai Barbershop!');
+      .should('have.text', 'Agora você se tornou um(a) Samurai, faça seu login para ver seus agendamentos!');
 
   });
 
@@ -99,7 +99,7 @@ describe('Cenários com interdependência de cadastro de usuário e usuário já
     cy.get('.toast')
       .should('be.visible')
       .find('p')
-      .should('have.text', 'Agora você pode fazer seu login no Samurai Barbershop!');
+      .should('have.text', 'Agora você se tornou um(a) Samurai, faça seu login para ver seus agendamentos!');
 
   });
 
