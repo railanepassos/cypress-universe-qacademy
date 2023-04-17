@@ -6,6 +6,7 @@
   "author": "Railane Passos",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^12.9.0"
+    "@faker-js/faker": "7.6.0",
+    "cypress": "12.9.0"
   }
 }
