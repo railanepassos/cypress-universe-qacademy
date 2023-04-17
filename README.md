@@ -2,26 +2,46 @@
 Desenvolvido durante o curso Universo Cypress promovido pela plataforma https://app.weareqacademy.com sob orientação do Coordenador Fernando Papito. Este projeto contem subprojetos relacionados ao curso, então você precisará navegar entre pastas para rodar o projeto desejado.
 
 ## 🟢 training-wheels project
-
+```
    1. Navigate to dir of the project
       cd training-wheels
    2. Install the dependencies of the project
       yarn install
    3. Run the command
       yarn test
+```
 
 ### ✅  Cenários implementados no projeto
-#### ▶️ Interação com Alertas, Checkbox, Datepicker, Drag-drop, Hooks, Hobers, IFrames, Radio, Select, Tables, Tabs, Timeout, Toast e Upload.
+```
+Interação com: 
+      ▶️ Alertas
+      ▶️ Checkbox
+      ▶️ Datepicker
+      ▶️ Drag-drop
+      ▶️ Hooks
+      ▶️ Hobers
+      ▶️ IFrames
+      ▶️ Radio
+      ▶️ Select
+      ▶️ Tables
+      ▶️ Tabs
+      ▶️ Timeout
+      ▶️ Toast
+      ▶️ Upload
+```
 
 ### ✅  Checklist do Projeto
 🏗️ Em construção
 
 
 ## 🟡 samuraibs project
+```
 Aqui você terá algumas configurações relacionadas ao front-end e back-end separadamanete para que funcione tudo conforme o esperado, pois é necessário que suba o projeto em sua propria maquina, diferente do anterior que ultiliza uma url na internet para execução dos testes.
+```
 
 #### ▶️ Configurando database para projeto de back-end (api)
 O banco de dados será deve ser criado em nuvem.
+
    1. Navegue para https://elephantsql.com/
    2. Crie conta, caso não possua
    3. Crie uma instância com o suporte deste video https://www.youtube.com/watch?v=BuJj4LCWP_4&pp=ygUMZWxlcGhhbnQgc3Fs
@@ -73,10 +93,12 @@ O banco de dados será deve ser criado em nuvem.
 🏗️ Em construção
 
 ### ✅  Principais ferramentas e tecnologias ultilizadas
-#### ▶️ Javascript - Linguagem de programação ultilizado no desenvolvimento dos testes.
-#### ▶️ Nodejs - Ferramenta para execução de codigos javascript fora do navegador.
-#### ▶️ Yarn - Gerenciador de pacotes javascript.
-#### ▶️ Cypress - Ferramenta de teste.
+```
+▶️ Javascript - Linguagem de programação ultilizado no desenvolvimento dos testes.
+▶️ Nodejs - Ferramenta para execução de codigos javascript fora do navegador.
+▶️ Yarn - Gerenciador de pacotes javascript.
+▶️ Cypress - Ferramenta de teste.
+```
 
 ## 🎓 Certificado 🎓
 🏗️ Em construção
