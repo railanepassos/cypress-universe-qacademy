@@ -28,6 +28,7 @@
 <p>▶ Yarn - Gerenciador de pacotes javascript.
 <p>▶ Cypress - Ferramenta de teste.
 <p>▶ Faker.js - Ferramenta para geração de dados aleatório.
+<p>▶ Node Postgress - Ferramenta para execução de queries no banco de dados.
 
 <br><h3>Cenários implementados no projeto</h3>
 🏗️ Em construção
