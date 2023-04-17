@@ -74,14 +74,14 @@ describe('Cenários de cadastro de usuário interceptando chamada', () => {
 })
 
 describe('Cenários com interdependência de cadastro de usuário e usuário já cadastrado', () => {
-  const userData = {
-    name: "Maria",
-    email: "maria@mailinator.com",
-    password: "pwd123"
-
-  }
 
   it('deve cadastrar usuário com sucesso após remover usuário do banco de dados', () => {
+    const userData = {
+      name: "Maria",
+      email: "maria@mailinator.com",
+      password: "pwd123"
+
+    }
 
     cy.task('removeUser', userData.email)
       .then((result) => {
@@ -104,6 +104,26 @@ describe('Cenários com interdependência de cadastro de usuário e usuário já
   });
 
   it('deve exibir mensagem para e-mail já cadastrado', () => {
+    const userData = {
+      name: "Maria Souza",
+      email: "mariasouza@mailinator.com",
+      password: "pwd123",
+      is_provider: true
+    }
+
+    cy.task('removeUser', userData.email)
+      .then((result) => {
+        console.log(result)
+
+      })
+
+    cy.request(
+      'POST',
+      'http://localhost:3333/users',
+      userData
+    ).then((response) => {
+      expect(response.status).to.eq(200);
+    })
 
     cy.visit('/signup');
 
