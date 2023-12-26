@@ -1,1 +1,13 @@
+# training-wheels project
 /training-wheels/node_modules
+
+# samuraibs project
+/samuraibs/apps/api/node_modules
+/samuraibs/apps/api/.env
+/samuraibs/apps/api/dist
+/samuraibs/apps/api/build
+/samuraibs/apps/api/tmp
+/samuraibs/apps/web/node_modules
+/samuraibs/apps/web/dist
+/samuraibs/apps/web/build
+/samuraibs/tests/node_modules
