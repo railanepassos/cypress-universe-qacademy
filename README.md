@@ -26,7 +26,17 @@ O banco de dados será deve ser criado em nuvem.
    2. Crie conta, caso não possua
    3. Crie uma instância com o suporte deste video https://www.youtube.com/watch?v=BuJj4LCWP_4&pp=ygUMZWxlcGhhbnQgc3Fs
    4. Renomee o arquivo `.env-model` para `.env`
-   5. Subistitua `?` de `# PostgreSQL` do arquivo `.env` com as informações de 
+   5. Subistitua `?` de `# PostgreSQL` do arquivo `.env` com as informações de credenciais obtidas no site https://elephantsql.com/
+
+#### ▶️ Configurando database: Criando estrutira de dasos (api)
+   1. No terminal do projeto navegue para
+   ```bash
+      cd samuraibs/apps/api
+   ```
+   2. Crie a estrutura de dados
+   ```bash
+      yarn typeorm migration:run
+   ```
 
 #### ▶️ Configurando/ subindo o projeto de back-end (api)
    1. Navigate to dir of the project of the backend:
