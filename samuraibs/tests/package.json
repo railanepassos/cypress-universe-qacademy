@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Railane Passos",
   "license": "MIT",
+  "scripts": {
+    "test": "npx cypress open"
+  },
   "devDependencies": {
     "@faker-js/faker": "7.6.0",
     "cypress": "12.9.0",
